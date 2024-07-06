@@ -1,7 +1,9 @@
 #Video
-https://github.com/ErhanAlgl/Projects/assets/39314007/73573457-641d-47e5-b8fe-c275d3652711
+
+https://github.com/ErhanAlgl/Projects/assets/39314007/0f0daf77-04a9-4a2b-a1fa-0b01dab830e8
 
 #ScreenShot
+
 ![alt text](<assets/Ekran Resmi1.png>) 
 ![alt text](<assets/Ekran Resmi2.png>)
 
