@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Müzik Dükkanı</title>
+    <!-- Inline CSS -->
+    <style>
+        p {
+            position: relative;
+        }
+
+        img {
+            max-width: 100%;
+            height: 75%;
+        }
+
+        h5 {
+            color: #6f42c1;
+        }
+    </style>
+</head>
+
+<body style="background-color: #e9ecef;" class="bg-s">
+    <!-- Header Menu -->
+    <header class="d-flex justify-content-left align-items-center py-3 bg-secondary w-100">
+        <a class="me-3 ms-5 fs-4 text text-danger text-decoration-none" href="index.html">Müzik Dükkanım</a> 
+        <!-- me-3 sağ marjin ekler, ms sol marjin ekler, fs-4 yazı boyutu, ext-decoration-none ise yazının altındaki çizgiyi kaldırır. -->
+        <a class="ms-3 text-white text-decoration-none" href="index.html">Ana Sayfa</a>
+        <a class="ms-3 text-white text-decoration-none" href="urunlerimiz.html">Ürünlerimiz</a>
+        <a class="ms-3 text-white text-decoration-none" href="hakkimizda.html">Hakkımızda</a>
+    </header>
+    <!-- Main Content Container -->
+    <div class="container mb-5">
+        <div>
+            <p class="text-center fs-1" style="color:#6f42c1">Ürünlerimiz</p>
+        </div>
+
+        <!-- İlk sıra (row) -->
+        <div class="row row-cols-3"> <!-- 3 kolonlu sıra: row-cols-3 -->
+            <div class="col-4 mb-3"> <!-- 4 kolon genişliğinde sütun: col-4 | margin botton 3 verdik-->
+                <div class="card">
+                    <!-- Kart bileşeni Görsel kısım -->
+                    <img src="./assets/6.png" class="card-img-top">
+                    <div class="card-body">
+                        <!-- Kart içeriği -->
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Diğer kartlar için aynı yapı tekrarlanır -->
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/2.webp" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/3.webp" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- İkinci sıra (row) -->
+        <div class="row row-cols-3 py-3">
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/4.webp" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/5.webp" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/6.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Üçüncü sıra (row) -->
+        <div class="row row-cols-3 py-3">
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/6.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img src="./assets/2.webp" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem ipsum dolor sit.</h5>
+                        <p class="card-text">600₺</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Bootstrap JavaScript ve bağlantıları -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

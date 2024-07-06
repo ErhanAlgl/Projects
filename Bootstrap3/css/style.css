@@ -1,0 +1,20 @@
+.avatar {
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.avatar-box {
+    text-align: center;
+}
+
+.mini-post {
+    width: 100%;
+    height: auto;
+}
+
+.post-content{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex; /* İçeriği ortalamak için esnek kutu düzenini kullan */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    margin: 0;
+    overflow: hidden; /* Taşan içeriği gizle */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    flex: 1;
+    margin: 10px;
+    border-radius: 15px;
+    position: relative; /* H3 etiketinin konumlandırılması için */
+    cursor: pointer; /* Fare imlecini işaretçi yap */
+    transition: flex 0.5s ease-in; /* Geçişte-Değişiminde animasyon uygula */
+}
+
+.panel h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 1.6rem;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.1s ease-in; /* Geçişte-Değişiminde animasyon uygula */
+    padding: 5px;
+}
+
+.panel.active h3 {
+    opacity: 1;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+@media screen and (max-width:900px) {
+    .panel:nth-child(4),
+    .panel:nth-child(5) {
+        flex: 0;
+        opacity: 0;
+        visibility: hidden;
+        width: 100vw;
+    }
+  }

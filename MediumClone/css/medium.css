@@ -1,0 +1,48 @@
+body {
+    font-family: "PT Serif", serif;
+}
+
+.bg-yellow {
+    background-color: #F7F4ED;
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid #414141;
+}
+
+.border-top-dark {
+    border-top: 1px solid #414141;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #dfdfdfb8;
+}
+
+.rounded-btn {
+    border-radius: 50px;
+}
+
+.custom-h1 {
+    padding-top: 5rem;
+    font-size: 7rem;
+    line-height: 0.8;
+}
+
+.custom-image {
+    width: 100%;
+    object-fit: cover;
+    margin-right: -70px;
+}
+
+.second-bg {
+    background: linear-gradient(270deg, #FFC017 14%, #FFE330 32%, #FBF0B8 51%);
+}
+
+.aside-buttons>li {
+    margin-bottom: 10px;
+}
+
+.start-btn{
+    width: 25%;
+    font-size: 20px;
+}
